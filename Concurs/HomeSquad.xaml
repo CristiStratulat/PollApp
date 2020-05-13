@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Concurs.HomeSquad">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" Spacing="20" BackgroundColor="White">
+                <Image Source="Home_Squad.jpg"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2.75*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Label 
+                    Grid.Column="0" 
+                    Grid.Row="1"
+                    Text="Nume:"
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+                    <Label 
+                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Text="Home Squad - Clasa a VII-a B" 
+                    FontSize="Large" />
+                    <Label 
+                    Grid.Column="0" 
+                    Grid.Row="2"
+                    Text="Motto:"
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+                    <Label 
+                    Grid.Column="1" 
+                    Grid.Row="2"
+                    Text="&quot;Si cand stam in izolare facem sport cu mic cu mare&quot;" 
+                    FontSize="Medium" />
+                    <Label Grid.Column="0" Grid.Row="3" Text="Melodie: " 
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+                    <Label 
+                    Grid.Column="1" 
+                    Grid.Row="3">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Harder,better,faster, stronger(Daft Punk)"
+                                      TextColor="Blue"
+                                      FontSize="Large"
+                                      TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://www.youtube.com/watch?v=9sjWU5dGcGI" />
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Grid>
+                <ImageButton 
+                Source="inima.png"
+                WidthRequest      ="120"
+                HeightRequest     ="120"
+                CornerRadius      ="80"
+                VerticalOptions   ="Center"
+                HorizontalOptions ="Center">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
+                            Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
+                            Value="0.8" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

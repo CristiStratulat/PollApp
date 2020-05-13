@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Concurs.Vestitii">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" Spacing="20" BackgroundColor="White">
+                <Image Source="Vestitii.jpg"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2.75*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Label 
+                    Grid.Column="0" 
+                    Grid.Row="1"
+                    Text="Nume:"
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+                    <Label 
+                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Text="VEstiții -Generaţia de sportivi VE 2020 - clasa a V-a E" 
+                    FontSize="Large" />
+                    <Label 
+                    Grid.Column="0" 
+                    Grid.Row="2"
+                    Text="Motto:"
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+                    <Label 
+                    Grid.Column="1" 
+                    Grid.Row="2">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="&quot;Mişcarea înseamnă " FontSize="Medium"/>
+                                <Span Text="V" FontSize="Medium" FontAttributes="Bold"/>
+                                <Span Text="iaţă, sportul înseamnă sănătat" FontSize="Medium"/>
+                                <Span Text="E" FontAttributes="Bold" FontSize="Medium"/>
+                                <Span Text="!&quot;"  FontSize="Medium"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Grid.Column="0" Grid.Row="3" Text="Melodie: " 
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+                    <Label 
+                    Grid.Column="1" 
+                    Grid.Row="3">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Armin van Buuren - Blah Blah Blah"
+                                      TextColor="Blue"
+                                      FontSize="Large"
+                                      TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://www.youtube.com/watch?v=mfJhMfOPWdE"/>
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Grid>
+                <ImageButton 
+                Source="inima.png"
+                WidthRequest      ="120"
+                HeightRequest     ="120"
+                CornerRadius      ="80"
+                VerticalOptions   ="Center"
+                HorizontalOptions ="Center">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
+                            Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
+                            Value="0.8" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "20653555375",
+    "firebase_url": "https://ies7-13079.firebaseio.com",
+    "project_id": "ies7-13079",
+    "storage_bucket": "ies7-13079.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20653555375:android:83fb5a15dcef72ffb61e5a",
+        "android_client_info": {
+          "package_name": "com.StratulatCristian.concurs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20653555375-krthv71nhu7gec1badp8cjm7880s9iju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN8NTFZeqsSrTRqeypyvSPr2NdrZPchiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20653555375-krthv71nhu7gec1badp8cjm7880s9iju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

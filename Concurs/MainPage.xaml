@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Concurs.MainPage">
+    <ScrollView>
+        <Grid>
+            <!--Forma Gridului 20 rows 2 coloane-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <!--Capul tabelului-->
+            <Label 
+                Text="Nr. Echipa" 
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold" 
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Label 
+                Grid.Column="1" 
+                Text="Nume Echipa" 
+                TextColor="DarkOrange"
+                
+                FontSize="Medium" 
+                FontAttributes="Bold" 
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <!--Echipele-->
+            <Label 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                TextColor="CornflowerBlue"
+                Text="1."
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button    
+                Grid.Row="1"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="No Name - Clasa a VI-a H"
+                Clicked="No_Name" 
+                />
+
+            <Label 
+                Grid.Row="2" 
+                Grid.Column="0" 
+                Text="2."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="2"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Vulturii Negri - Clasa a II-a A"
+                Clicked="Vulturii_Negri"
+                />
+            <Label 
+                Grid.Row="3" 
+                Grid.Column="0" 
+                Text="3."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="3"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Super team - Clasa a III-a B"
+                Clicked="Super_team"/>
+            <Label 
+                Grid.Row="4" 
+                Grid.Column="0" 
+                Text="4."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="4"
+                Grid.Column="1"
+                 CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="VEstiții - Clasa a V-a E"
+                Clicked="Vestitii"/>
+            <Label 
+                Grid.Row="5" 
+                Grid.Column="0" 
+                Text="5."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="5"
+                Grid.Column="1"
+                 CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="8H-ForEver - Clasa a VIII-a H"
+                Clicked="H_ForEver"/>
+            <Label 
+                Grid.Row="6" 
+                Grid.Column="0" 
+                Text="6."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="6"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Frații D - Clasa A VIII-a D"
+                Clicked="FratiiD"/>
+            <Label 
+                Grid.Row="7" 
+                Grid.Column="0" 
+                Text="7."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="7"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Super Girls - Clasa a VI-a C"
+                Clicked="SuperGirls"/>
+            <Label 
+                Grid.Row="8" 
+                Grid.Column="0" 
+                Text="8."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="8"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Campionii din C - Clasa a VII-a C"
+                Clicked="Campionii"/>
+            <Label 
+                Grid.Row="9" 
+                Grid.Column="0" 
+                Text="9."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="9"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Home Squad - Clasa a VII B"
+                Clicked="HomeSquad"/>
+            <Label 
+                Grid.Row="10" 
+                Grid.Column="0" 
+                Text="10."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="10"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="5Bang! - Clasa a V-a B"
+                Clicked="Bang"/>
+            <Label 
+                Grid.Row="11" 
+                Grid.Column="0" 
+                Text="11."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="11"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Vulturii din 5 H - Clasa a V-a H"
+                Clicked="Vulturii"/>
+            <Label 
+                Grid.Row="12" 
+                Grid.Column="0" 
+                Text="12."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="12"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Tic Toc - Clasa a II-a G"
+                Clicked="Tic"/>
+            <Label 
+                Grid.Row="13" 
+                Grid.Column="0" 
+                Text="13."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="13"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Tiger Kids - Clasa a V-a A"
+                Clicked="Tiger"/>
+            <Label 
+                Grid.Row="14" 
+                Grid.Column="0" 
+                Text="14."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="14"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="MiniONline - Clasa a III-a E"
+                Clicked="Minionline"/>
+            <Label 
+                Grid.Row="15" 
+                Grid.Column="0" 
+                Text="15."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="15"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Sportivii 3D - Clasa a III-a D"
+                Clicked="Sportivii"/>
+            <Label 
+                Grid.Row="16" 
+                Grid.Column="0" 
+                Text="16."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="16"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Panda Kids - Clasa a II-a F"
+                Clicked="Panda"/>
+            <Label 
+                Grid.Row="17" 
+                Grid.Column="0" 
+                Text="17."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="17"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="Kactusii 8C - Clasa a VIII-a C"
+                Clicked="Cactusiii"/>
+            <Label 
+                Grid.Row="18" 
+                Grid.Column="0" 
+                Text="18."
+                TextColor="CornflowerBlue"
+                FontSize="Medium" 
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"/>
+            <Button      
+                Grid.Row="18"
+                Grid.Column="1"
+                CornerRadius="20"
+                BackgroundColor="PeachPuff"
+                Text="MIADI - TEAM - Clasa a III-a A"
+                Clicked="Button_Clicked"/>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
