@@ -63,6 +63,7 @@
                     </Label>
                 </Grid>
                 <ImageButton 
+                    x:Name="myBtn"
                 Source="inima.png"
                 WidthRequest      ="120"
                 HeightRequest     ="120"
