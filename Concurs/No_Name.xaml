@@ -63,7 +63,7 @@
                     </Label>
                 </Grid>
                 <ImageButton 
-                     x:Name="myButton"
+                     x:Name="myBtn"
                     Clicked="ImageButton_Clicked"
                 Source="inima.png"
                 WidthRequest      ="120"
