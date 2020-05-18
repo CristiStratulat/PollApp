@@ -63,6 +63,8 @@
                     </Label>
                 </Grid>
                 <ImageButton 
+                x:Name="btnvote"
+                    Clicked="btnvote_Clicked"
                 Source="inima.png"
                 WidthRequest      ="120"
                 HeightRequest     ="120"
