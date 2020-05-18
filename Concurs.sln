@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurs.Android", "Concurs.Android\Concurs.Android.csproj", "{ADD82555-2162-49F6-8213-B3C63EE47950}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IES7", "Concurs.Android\IES7.csproj", "{ADD82555-2162-49F6-8213-B3C63EE47950}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurs.iOS", "Concurs.iOS\Concurs.iOS.csproj", "{061C1B89-E28A-4454-9165-9EE2A4D0F57B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurs", "Concurs\Concurs.csproj", "{13057FB9-5B1C-4C16-B207-EC64530634A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concurs", "Concurs\Concurs.csproj", "{13057FB9-5B1C-4C16-B207-EC64530634A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

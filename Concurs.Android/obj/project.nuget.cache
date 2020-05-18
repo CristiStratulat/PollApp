@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rvf2IJ4q/BlnFlcuHQPmsnysUnEQ2MBRcqQ5O+ONW4zK6BAWc4BNKrzyY6/K7P4mf3vyhgSaWknSm2lfQ2sTTw==",
+  "dgSpecHash": "TbJXOH7Lu7g57Fi2yEK8QT8IUtOdoWgusMX2NLPewYu1Tcl3Whe21nrA/xXw8iXo3aSJKmmioOBtP8ZCz3iBUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\Concurs.Android.csproj",
+  "projectFilePath": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\IES7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cmsst\\.nuget\\packages\\firebasedatabase.net\\4.0.4\\firebasedatabase.net.4.0.4.nupkg.sha512",
     "C:\\Users\\cmsst\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",

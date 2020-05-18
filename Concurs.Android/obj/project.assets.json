@@ -2552,9 +2552,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\Concurs.Android.csproj",
-      "projectName": "Concurs.Android",
-      "projectPath": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\Concurs.Android.csproj",
+      "projectUniqueName": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\IES7.csproj",
+      "projectName": "IES7",
+      "projectPath": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\IES7.csproj",
       "packagesPath": "C:\\Users\\cmsst\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\cmsst\\source\\repos\\Concurs\\Concurs.Android\\obj\\",
       "projectStyle": "PackageReference",

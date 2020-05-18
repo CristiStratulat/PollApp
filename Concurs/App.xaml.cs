@@ -10,7 +10,6 @@ namespace Concurs
         public App()
         {
             InitializeComponent();
-            Preferences.Set("votPosibil", DateTime.Now);
             MainPage = new NavigationPage(new MainPage());
            
             

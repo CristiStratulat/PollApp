@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.StratulatCristian.concurs" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.StratulatCristian.concurs" android:installLocation="preferExternal">
+  <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="Concurs.Android" android:icon="@mipmap/ies" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="IES7" android:icon="@drawable/ies" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ies" android:label="IES7" android:theme="@style/MainTheme" android:name="crc64237891c8a6406995.MainActivity">
       <intent-filter>

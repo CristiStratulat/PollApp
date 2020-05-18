@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Concurs.Rezultate">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            
+            <Label Text="Nume echipa"
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                   />
+                <Label Text="Numar voturi"
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                   />
+            <Label Text="No Name"
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   x:Name="noname"
+                   />
+            <Label Text="Vulturii Negri"
+                   Grid.Column="0"
+                   Grid.Row="2"
+                  HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="2"
+                  HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   x:Name="vulturiinegri"
+                   />
+            <Label Text="Super Team"
+                   Grid.Column="0"
+                   Grid.Row="3"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="3"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   x:Name="superteam"
+                   />
+            <Label Text="Vestiții"
+                   Grid.Column="0"
+                   Grid.Row="4"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="4"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="vestitii"
+                   />
+            <Label Text="8H-Forever"
+                   Grid.Column="0"
+                   Grid.Row="5"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="5"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                       x:Name="h"
+                   />
+            <Label Text="Frații D"
+                   Grid.Column="0"
+                   Grid.Row="6"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="6"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                    x:Name="fratiid"
+                   />
+            <Label Text="Super Girls"
+                   Grid.Column="0"
+                   Grid.Row="7"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="7"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="supergirls"
+                   />
+            <Label Text="Campionii din C"
+                   Grid.Column="0"
+                   Grid.Row="8"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="8"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="campioniiC"
+                   />
+            <Label Text="Home Squad"
+                   Grid.Column="0"
+                   Grid.Row="9"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="9"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="homesquad"
+                   />
+            <Label Text="5Bang!"
+                   Grid.Column="0"
+                   Grid.Row="10"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="10"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="bang"
+                   />
+            <Label Text="Vulturii din 5H"
+                   Grid.Column="0"
+                   Grid.Row="11"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="11"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                      x:Name="vulturii"
+                   />
+            <Label Text="TIC TOC"
+                   Grid.Column="0"
+                   Grid.Row="12"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="12"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                       x:Name="tictoc"
+                   />
+            <Label Text="Tiger Kids"
+                   Grid.Column="0"
+                   Grid.Row="13"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="13"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="tiger"
+                   />
+            <Label Text="Minionline"
+                   Grid.Column="0"
+                   Grid.Row="14"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="14"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="minionline"
+                   />
+            <Label Text="Sportivii 3D"
+                   Grid.Column="0"
+                   Grid.Row="15"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="15"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="sportivii"
+                   />
+            <Label Text="Panda Kids"
+                   Grid.Column="0"
+                   Grid.Row="16"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="16"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"
+                       x:Name="panda"
+                   />
+            <Label Text="Kactusii 8C"
+                   Grid.Column="0"
+                   Grid.Row="17"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="17"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="cactusii"
+                   />
+            <Label Text="Miadi-Team"
+                   Grid.Column="0"
+                   Grid.Row="18"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   />
+                <Label Text="-"
+                   Grid.Column="1"
+                   Grid.Row="18"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                       x:Name="miadi"/>
+                <Button 
+                    Grid.Row="19"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="Load results"
+                    Clicked="Button_Clicked"/>
+            </Grid>
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

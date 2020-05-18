@@ -33,7 +33,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <!--Capul tabelului-->
             <Label 
@@ -344,6 +344,14 @@
                 BackgroundColor="PeachPuff"
                 Text="MIADI - TEAM - Clasa a III-a A"
                 Clicked="Button_Clicked"/>
+            <Button
+                Grid.Row="19"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                BackgroundColor="PeachPuff"
+                Text="REZULTATE"
+               Clicked="Button_Clicked_1"
+                />
         </Grid>
     </ScrollView>
 

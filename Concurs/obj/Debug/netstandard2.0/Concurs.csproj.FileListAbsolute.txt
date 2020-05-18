@@ -34,3 +34,5 @@ C:\Users\cmsst\source\repos\Concurs\Concurs\bin\Debug\netstandard2.0\Mono.Androi
 C:\Users\cmsst\source\repos\Concurs\Concurs\bin\Debug\netstandard2.0\Mono.Android.pdb
 C:\Users\cmsst\source\repos\Concurs\Concurs\bin\Debug\netstandard2.0\Mono.Android.xml
 C:\Users\cmsst\source\repos\Concurs\Concurs\obj\Debug\netstandard2.0\Concurs.csproj.CopyComplete
+C:\Users\cmsst\source\repos\Concurs\Concurs\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\cmsst\source\repos\Concurs\Concurs\obj\Debug\netstandard2.0\Rezultate.xaml.g.cs
