@@ -8,5 +8,6 @@ When the competition is over, a password will be published, so they can see the 
  - some fundamental xamarin.forms concept (xaml, preferences, dissabeling buttons etc.)
  - working with an online database (google firebase) (realtime database, some basic operations such as get and add)
  - publishing Android apps
+ - & much more
  
 Overall, as it is my first real project, I got familiarized working with this type of work.
