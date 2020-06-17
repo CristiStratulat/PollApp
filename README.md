@@ -1,6 +1,7 @@
 # PollAplication
 A poll aplication for a local competition.
-A user can search the team he wants and vote. We can vote one time/day.
+A user can search the team he wants and vote. You can no longer add or remove teams, their profiles are built static in Xml. 
+We can vote one time/day.
 When the competition is over, a password will be published, so they can see the results in the app. 
 
 
