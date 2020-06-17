@@ -13,4 +13,4 @@ When the competition is over, a password will be published, so they can see the 
 Overall, as it is my first real project, I got familiarized working with this type of work.
 
 # Bugs discovered
- -if we delete the cache memory/reinstall the app, we can vote as many times per day as we want (because i used preferences to save the last time sometimes voted and whenever someone reinstalls the app/ deletes catche the preferences reset.) 
+If we delete the cache memory/reinstall the app, we can vote as many times per day as we want (because i used preferences to save the last time sometimes voted and whenever someone reinstalls the app/ deletes catche the preferences reset.) 
